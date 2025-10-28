@@ -12,9 +12,9 @@ from datetime import datetime
 # =========================================================================
 
 # API Configuration
-API_ENDPOINT = "https://api.chatgpt.com/v1/chat/completions"  # OR your own provider
+API_ENDPOINT = "https://api.avalai.ir/v1/chat/completions"  # OR your own provider
 API_KEY = "YOUR_API_KEY"
-MODEL_NAME = "gpt-4o"  # I strongly suggest to use gemini-2.5-flash
+MODEL_NAME = "gemini-2.5-flash-preview-09-2025"  # I strongly suggest to use gemini-2.5-flash
 
 # Translation Configuration
 TARGET_LANGUAGE = "Persian"
@@ -676,4 +676,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
