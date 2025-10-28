@@ -1,0 +1,6 @@
+# Core dependencies for Persian Subtitle Translator
+requests>=2.31.0
+pysrt>=1.1.2
+
+# Optional: For environment variable support (recommended)
+python-dotenv>=1.0.0
